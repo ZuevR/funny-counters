@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  height: 64px;
+  background-color: lightblue;
+  margin-bottom: 40px;
+}
+.header .title {
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  line-height: 64px;
+}
+
+.main .add-btn {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main .add-btn button {
+  font-size: 30px;
+  padding: 15px 30px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  transition: background-color 0.2s linear;
+}
+.main .add-btn button:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+.main .counter-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .counter-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  padding: 20px;
+  width: 20%;
+  margin: 20px;
+}
+.main .counter-list-item span {
+  font-size: 30px;
+  margin-bottom: 20px;
+  user-select: none;
+}
+.main .counter-list-item .counter-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.main .counter-list-item .counter-buttons button {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background-color: lightsalmon;
+  border-radius: 5px;
+  border: none;
+  user-select: none;
+}
+.main .counter-list-item .counter-buttons button:hover {
+  cursor: pointer;
+}
+.main .counter-list-item .counter-buttons button:first-child {
+  background-color: lightgreen;
+}
+
+/*# sourceMappingURL=main.css.map */
